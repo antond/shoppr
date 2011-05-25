@@ -1,6 +1,6 @@
 require 'forwardable'
 require 'rubygems'
-require 'active_support'
+require 'active_support/core_ext'
 require 'hashie'
 require 'httparty'
 

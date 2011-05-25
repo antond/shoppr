@@ -80,7 +80,8 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<mocha>, [">= 0"])
       s.add_development_dependency(%q<fakeweb>, [">= 0"])
       s.add_development_dependency(%q<hashie>, [">= 0"])
-      s.add_development_dependency(%q<jeweler>, [">=0"])
+      s.add_development_dependency(%q<jeweler>, [">= 0"])
+      s.add_development_dependency(%q<rake>, ["= 0.8.7"])
     else
       s.add_dependency(%q<hashie>, ["= 0.2.0"])
       s.add_dependency(%q<httparty>, [">= 0.5.0"])
