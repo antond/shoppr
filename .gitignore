@@ -4,3 +4,5 @@ log
 doc
 rmixr-*.gem
 rdoc
+.rvmrc
+.*.sw?
